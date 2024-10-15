@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    
+<title>HTML, CSS, and JavaScript Example</title>  
+<link rel="stylesheet" href="styles.css">  
+
+  <p id="myParagraph">In the name of Allah, the Entirely Merciful, the Especially Merciful. This is a short paragraph from the Holy Quran; the exact translation varies slightly depending on the translator, but the meaning remains the same. For a specific verse and translation, please specify the Surah (chapter) and Ayah (verse) number.</p>  
+  <button id="myButton">Change Color</button>  
+  <script src="script.js"></script> </body>  
+</html>
+  <script>
+  const paragraph = document.getElementById("myParagraph");  
+const button = document.getElementById("myButton");  
+
+button.addEventListener("click", () => {  
+  if (paragraph.style.color === "blue") {  
+    paragraph.style.color = "red";  
+  } else {  
+    paragraph.style.color = "blue";  
+  }  
+});
+</script>
+</body>
+</html>
+    
+
